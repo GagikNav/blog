@@ -1,0 +1,20 @@
+@media(max-width: 360px) {
+
+    .grid-container {
+        display: grid;
+        height: 80%;
+        grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+        margin: 1px;
+        padding-top: 10px;
+    }
+
+    .box {
+
+        margin: 2px 2px 2px 2px;
+
+    }
+
+    .title {
+        margin: 2px 2px 2px 2px;
+    }

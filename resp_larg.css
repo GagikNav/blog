@@ -1,0 +1,21 @@
+@media(min-width: 800px) {
+    .grid-container {
+        display: grid;
+        height: 90%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0.5rem;
+        margin: 2rem 1.5rem 2rem 1.5rem;
+
+
+    }
+
+    .box {
+
+        margin: 1rem 1rem 1rem 1rem;
+
+    }
+
+    .title {
+        margin: 2rem 1.5rem 2rem 1.5rem;
+    }
+}
