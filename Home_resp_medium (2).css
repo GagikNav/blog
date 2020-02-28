@@ -1,0 +1,20 @@
+/** @format */
+
+@media (min-width: 361px) and (max-width: 799px) {
+  .grid-container {
+    display: grid;
+    height: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    grid-gap: 0.5rem;
+    padding-top: 10px;
+  }
+
+  .box {
+    margin: 1rem 0.5rem 1rem 0.5rem;
+  }
+
+  .title {
+    margin: 1rem 0.5rem 1rem 0.5rem;
+  }
+}

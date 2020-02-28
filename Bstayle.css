@@ -1,10 +1,10 @@
 /** @format */
 
-@import "../../home/HomeCss/Navigation.css";
-@import "../../home/HomeCss/footer.css";
+@import "Navigation.css";
+@import "footer.css";
 @import "blogfooter.css";
-@import "resp_medium.css";
-@import "resp_small.css";
+@import "Blog_resp_medium.css";
+@import "Blog_resp_small.css";
 
 @media (min-width: 800px) {
   body {

@@ -1,9 +1,9 @@
 /** @format */
 
 @import "Navigation.css";
-@import "resp_small.css";
-@import "resp_medium.css";
-@import "resp_larg.css";
+@import "Home_resp_small.css";
+@import "Home_resp_medium.css";
+@import "Home_resp_larg.css";
 @import "footer.css";
 
 body {
@@ -17,7 +17,7 @@ body {
   height: 100px;
   align-items: flex-start;
   padding-top: 1em;
-  background-image: url("../../Images/Compass2.jpg");
+  background-image: url("Compass2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(0, 0, 0);
