@@ -1,0 +1,85 @@
+/* Nav bar for large screen */
+
+/* @media (min-width: 800px) { */
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffffb2;
+  height: 4rem;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #333;
+  padding: 1rem;
+  text-decoration: none;
+  margin: auto;
+}
+
+.social {
+  float: right;
+  padding-bottom: 0.2rem;
+  font-size: 1.5em;
+}
+.social,
+li a:hover {
+  text-decoration: underline;
+  transform: scale(1.02);
+}
+/* } */
+
+/* For medium screen */
+
+@media (min-width: 361px) and (max-width: 799px) {
+  .navbar {
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    font-size: 1.2em;
+  }
+
+  .social {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  li a {
+    padding: 0.2rem;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+}
+
+/* for small */
+
+@media (max-width: 360px) {
+  .navbar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    font-size: 0.8rem;
+  }
+
+  .social {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  li a {
+    text-align: center;
+  }
+}

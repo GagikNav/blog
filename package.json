@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Sample Blog page created by HTML and CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GagikNav/blog.git"
+  },
+  "author": "Gagik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GagikNav/blog/issues"
+  },
+  "homepage": "https://github.com/GagikNav/blog#readme"
+}
